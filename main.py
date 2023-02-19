@@ -30,11 +30,10 @@ def find_mismatch(text):
     return indekss;
 
 def main():
-    izvele = input()
-    if (izvele == "I"):
-        text = input()
+    text = input()
+    if (text[0] == "I"):
         mismatch = find_mismatch(text)
-    elif (izvele == "R"):
+    elif (text[0] == "F"):
         f = open("steks-un-iekavas-DaviZ1986/test/", "r")
         text = f.read()
         mismatch = find_mismatch(text)
