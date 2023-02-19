@@ -35,7 +35,8 @@ def main():
         text = input()
         mismatch = find_mismatch(text)
     elif (izvele == "F"):
-        f = open("D:/tests.txt", "r")
+        f = open("steks-un-iekavas-DaviZ1986/test/
+", "r")
         text = f.read()
         mismatch = find_mismatch(text)
         f.close()
