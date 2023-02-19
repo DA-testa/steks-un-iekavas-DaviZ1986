@@ -34,7 +34,7 @@ def main():
     if (izvele == "I"):
         text = input()
         mismatch = find_mismatch(text)
-    elif (izvele == "F"):
+    elif (izvele == "R"):
         f = open("steks-un-iekavas-DaviZ1986/test/", "r")
         text = f.read()
         mismatch = find_mismatch(text)
