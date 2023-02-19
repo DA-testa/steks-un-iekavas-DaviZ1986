@@ -30,8 +30,16 @@ def find_mismatch(text):
     return indekss;
 
 def main():
-    text = input()
-    mismatch = find_mismatch(text)
+    izvele = input()
+    if (izvele == "I"):
+        text = input()
+        mismatch = find_mismatch(text)
+    elif (izvele == "F"):
+        f = open("D:/tests.txt", "r")
+        text = f.read()
+        mismatch = find_mismatch(text)
+        f.close()
+
     if (mismatch == 0):
         print("Success")
     else:
