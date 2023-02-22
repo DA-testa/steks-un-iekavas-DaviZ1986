@@ -23,7 +23,7 @@ def find_mismatch(text):
                 opening_brackets_stack.pop(len(opening_brackets_stack)-1)
             elif not are_matching(opening_brackets_stack[len(opening_brackets_stack)-1], text[i]):
                 return i+1
-    if len(opening_brackets_stack) == 0
+    if len(opening_brackets_stack) == 0:
         return "Success"
 
 def main():
