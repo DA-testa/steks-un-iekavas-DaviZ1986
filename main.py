@@ -35,7 +35,9 @@ def main():
         mismatch = find_mismatch(text)
         print(mismatch)
     if ("F" in ievade):
-        f = open("D:/Tests.txt", "r")
+        print("Input file path")
+        path = input()
+        f = open(path, "r")
         text = f.read()
         mismatch = find_mismatch(text)
         print(mismatch)
