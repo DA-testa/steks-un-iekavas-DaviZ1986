@@ -1,4 +1,5 @@
 # python3
+#221RDB150 - Dāvis Zommers
 
 from collections import namedtuple
 
