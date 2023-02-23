@@ -29,16 +29,16 @@ def find_mismatch(text):
         return opening_brackets_stack[0].position
           
 def main():
-    text = input()
-    if (text[0] == "I"):
+    ievade = input()
+    if ("I" in ievade):
+        text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
-    if (text[0] == "F"):
+    if ("F" in ievade):
         f = open("D:/Tests.txt", "r")
         text = f.read()
         mismatch = find_mismatch(text)
         print(mismatch)
-
 
 
 if __name__ == "__main__":
